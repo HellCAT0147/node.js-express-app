@@ -11,7 +11,7 @@ const port = 3000;
 const dbPassword = 'password_example';
 
 // connect to mongodb
-const dbURI = `mongodb+srv://HellCAT:${dbPassword}@nodejs.li2vk.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=NodeJS`;
+const dbURI = `mongodb+srv://NodeJSManager:${dbPassword}@nodejs.li2vk.mongodb.net/NodeJS?retryWrites=true&w=majority&appName=NodeJS`;
 mongoose
   .connect(dbURI)
   .then(() => app.listen(port))
